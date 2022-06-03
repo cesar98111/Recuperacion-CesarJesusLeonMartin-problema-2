@@ -12,6 +12,12 @@ public class Gasto {
 
     }
 
+    public int getGasto(){
+
+        return gasto;
+
+    }
+
     @Override
     public String toString() {
         return "Gasto{" +

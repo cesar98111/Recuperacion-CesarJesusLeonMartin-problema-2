@@ -19,6 +19,12 @@ public class Stack <T> {
 
     }
 
+    public int getSize(){
+
+        return lista.size();
+
+    }
+
     @Override
     public String toString() {
         String cadena = "";
